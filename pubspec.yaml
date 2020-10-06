@@ -1,0 +1,14 @@
+name: app_theme
+description: AppTheme package for Flutter.
+version: 1.0.0
+author: Anis Alibegić
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
