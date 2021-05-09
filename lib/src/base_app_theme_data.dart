@@ -3,19 +3,19 @@ import 'package:flutter/services.dart';
 
 @immutable
 abstract class BaseAppThemeData {
-  final Color? accentColor;
-  final Color? primaryColor;
-  final String? fontFamily;
-  final Brightness? brightness;
-  final MaterialColor? swatch;
-  final SystemUiOverlayStyle? systemUiOverlayStyle;
+  final Color accentColor;
+  final Color primaryColor;
+  final String fontFamily;
+  final Brightness brightness;
+  final MaterialColor swatch;
+  final SystemUiOverlayStyle systemUiOverlayStyle;
 
   const BaseAppThemeData({
-    this.accentColor,
-    this.primaryColor,
-    this.swatch,
-    this.brightness,
-    this.fontFamily,
-    this.systemUiOverlayStyle,
+    required this.accentColor,
+    required this.primaryColor,
+    required this.swatch,
+    required this.brightness,
+    required this.fontFamily,
+    required this.systemUiOverlayStyle,
   });
 }
